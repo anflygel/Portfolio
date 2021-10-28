@@ -1,0 +1,126 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./styles/main.scss ***!
+  \***********************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /* color: white; */
+}
+
+.header {
+  color: #ff0077;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /* background-color: rgb(107, 31, 31); */
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.button-img {
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.cart-button:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.list-audio {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.goods-item {
+  border: 1px solid black;
+  width: 260px;
+  color: black;
+}
+
+.goods-item:hover {
+  box-shadow: 0 5px 8px rgba(9, 167, 43, 0.16);
+}
+
+.goods-item-img {
+  width: 260px;
+  height: 172px;
+}
+
+.list-video {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-video {
+  padding: 25px 25px 0 25px;
+  width: 360px;
+  height: 240px;
+}
+
+.aloeclass {
+  position: relative;
+}
+
+.goods-item-name {
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px 0;
+}
+
+.goods-item-price {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 15px 20px;
+}
+
+.box-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.by-btn {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.by-btn:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
